@@ -1,0 +1,110 @@
+body {
+  height: 100vh;
+  display: flex; 
+  justify-content: center; 
+  align-items: center;     
+  margin: 0; 
+  background-color: #f0f0f0; 
+}
+
+.container{
+    width: 850px;
+    height: 650px;
+     display: flex;
+  flex-direction: column; 
+  
+  
+  align-items: center;
+  background-color: rgb(7, 112, 187);
+}
+
+.text{
+   display: flex;
+   flex-direction: column;
+   justify-content:start;
+   align-items: center;
+}
+h1{
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+h5{
+    margin-top: 10px;
+   margin-bottom: 2px;
+}
+
+.para{
+    margin: 0;
+    width: 710px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: blueviolet;
+   
+}
+.services{
+    width: 800px;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+   
+}
+.rice{
+    width: 220px;
+    height: 360px;
+    display: flex;
+    flex-direction: column;
+     align-items: left;
+    justify-content: left;
+   
+    margin-right: 10px;
+    padding: 20px;
+    background-color: rgb(130, 16, 171);
+    border-radius: 10px;
+    box-shadow: 0 8px 30px black;
+}
+  .button{
+    background-color: purple;
+    border: none;
+  }
+
+.production{
+     width: 220px;
+    height: 360px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin-right: 10px;
+    background-color: rgb(130, 16, 171);
+}
+.about{
+     width: 220px;
+    height: 360px;
+    display: flex;
+    flex-direction: column;
+     align-items: center;
+    justify-content: center;
+   
+    margin-right: 10px;
+    padding: 20px;
+    background-color: rgb(130, 16, 171);
+    border-radius: 10px;
+}
+.how{
+     width: 220px;
+    height: 360px;
+    display: flex;
+    flex-direction: column;
+     align-items: center;
+    justify-content: center;
+   
+    margin-right: 10px;
+    padding: 20px;
+    background-color: rgb(130, 16, 171);
+    border-radius: 10px;
+}
+
+
+
