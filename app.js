@@ -21,7 +21,14 @@ if (marks < 0 || marks > 100) {
 for(let i=1; i<=5; i++) {
     console.log('Count:',i);
 }
-let Count= 1;
-while(Count<= 3){
-    console.log(Count); count++ ;
+let count= 1;
+while(count<=3){
+    console.log(Count);count++;
 }
+for(let i=1; i<=10; i++) {
+    if (i === 5) continue
+    console.log('count:', i)
+}
+function greet(){ console.log('Hello!');}
+greet();
+
